@@ -443,3 +443,11 @@ function locomotive() {
       scroller:`#main`
     }
   })
+
+  gsap.from(".logo,li",{
+    y:-100,
+    stagger:0.2,
+    duration:0.8,
+    delay:1,
+    ease:"power3"
+  });
