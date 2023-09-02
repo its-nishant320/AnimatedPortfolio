@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbd1d1;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbd1d1;
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbd1d1;
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #dbd1d1;
+}
+canvas{
+    position: relative;
+    z-index: 9;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#loop {
+    display: flex;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    background-color: #dbd1d1;
+    top: 30%;
+    font-size: 100px;
+    white-space: nowrap;
+    font-family: 'Panchang', sans-serif;
+}
+
+#loop>h1 {
+    font-weight: 500;
+    animation-name: anim;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#loop>h1>span {
+    -webkit-text-stroke: 1.2px #000;
+    color: transparent;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbd1d1;
+    height: 3rem;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.navbar .logo {
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-left: 1rem;
+    /* font-family: 'Bespoke Slab', sans-serif; */
+    font-family: 'Boska', serif;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: inherit;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-left: 2.5rem;
+    font-size: 0.8rem;
+    font-family: 'Boska', serif;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: none;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    color: rgb(90, 90, 103);
+    transition: 0.5s;
+    font-size: 1rem;
+}
+
+.navbar .logo span {
+    font-family: 'Boska', serif;
+}
+
+#page>h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Clash Display', sans-serif;
+    color: #4b4646;
+    top: 50%;
+    position: absolute;
+    left: 3.5%;
+}
+
+#page>.hindi {
+    font-size: 1.3rem;
+    font-family: 'Boska', serif;
+    top: 51%;
+    left: 63%;
+    position: absolute;
+    color: #524c4c;
+}
+
+#page>span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Clash Display', sans-serif;
+    color: #4b4646;
+    top: 62%;
+    position: absolute;
+    left: 3.5%;
+}
+
+#page1>#right-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#page1>#right-text>h3{
+    font-weight: 400;
+    color: #7c7c7c;
+    font-family: 'Clash Display', sans-serif;
+}
+#page1>#right-text>h1{
+    font-size: 40px;
+    font-family: 'Bespoke Serif', serif;
+    color: #4b4646;
+}
+#page1>#left-text{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: end;
+}
+#page1>#left-text>h1{
+    font-size: 40px;
+    font-family: 'Bespoke Serif', serif;
+    color: #4b4646;
+}
+#page1>#left-text>h3{
+    color: #7c7c7c;
+    font-weight: 400;
+    font-family: 'Clash Display', sans-serif;
+}
+
+#page2>#text1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#page2>#text1>h3{
+    font-weight: 400;
+    color: #7c7c7c;
+    font-family: 'Clash Display', sans-serif;
+}
+#page2>#text1>h1{
+    font-size: 40px;
+    font-family: 'Bespoke Serif', serif;
+    color: #4b4646;
+}
+
+#page2>#text2{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    text-align: end;
+}
+#page2>#text2>p{
+    font-size: 1.1rem;
+    font-family: 'Clash Display', sans-serif;
+    color: #676161;
+    font-weight: 400;
+}
+
+#page3>#text3{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    text-align: end;
+}
+#page3>#text3>h3{
+    color: #7c7c7c;
+    font-weight: 700;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 1.1rem;
+}
+#page3>#text3>h1{
+    font-size: 2.7rem;
+    font-family: 'Bespoke Serif', serif;
+
+}
