@@ -451,3 +451,20 @@ function locomotive() {
     delay:1,
     ease:"power3"
   });
+
+  gsap.from("h3,.hindi",{
+    y:60,
+    stagger:0.2,
+    opacity:0,
+    duration:1,
+    delay:1,
+    ease:"power3"
+  });
+
+  gsap.from("span",{
+    y:20,
+    repeat:-1,
+    duration:0.5,
+    opacity:0.4,
+    yoyo:true
+  });
