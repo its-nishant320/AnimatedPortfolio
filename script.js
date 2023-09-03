@@ -474,6 +474,6 @@ gsap.from("#page3 #text3 h1",{
   transform:"translateX(-100%)",
   duration:8,
   repeat:-1,
-  delay:2,
+  delay:4,
   fontWeight:100
 });
