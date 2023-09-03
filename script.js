@@ -370,7 +370,7 @@ function locomotive() {
     snap: "frame",
     ease: `none`,
     scrollTrigger: {
-      scrub: 0.15,
+      scrub: 2,
       trigger: `#page>canvas`,
       start: `top top`,
       end: `600% top`,
@@ -448,7 +448,7 @@ function locomotive() {
     y:-100,
     stagger:0.2,
     duration:0.8,
-    delay:1,
+    delay:0.5,
     ease:"power3"
   });
 
@@ -457,14 +457,15 @@ function locomotive() {
     stagger:0.2,
     opacity:0,
     duration:1,
-    delay:1,
+    delay:2,
     ease:"power3"
   });
 
   gsap.from("span",{
-    y:20,
+    y:10,
     repeat:-1,
-    duration:0.5,
+    duration:1,
     opacity:0.4,
-    yoyo:true
+    yoyo:true,
+    delay:2
   });
