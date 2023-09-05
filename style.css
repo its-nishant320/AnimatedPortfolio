@@ -2,46 +2,54 @@
     font-family: head;
     src: url(/Heading-Now-Variable.ttf);
 }
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: gilroy;
 }
+
 html,body{
     height: 100%;
     width: 100%;
+    color: #ffffff;
 }
 
 #main{
     position: relative;
     overflow: hidden;
 }
+
 #page{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #dbd1d1;
+    background-color: #000000;
 }
+
 #page1{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #dbd1d1;
+    background-color: #000000;
 }
+
 #page2{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #dbd1d1;
+    background-color: #000000;
 }
+
 #page3{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #dbd1d1;
+    background-color: #000000;
     overflow: hidden;
 }
+
 canvas{
     position: relative;
     z-index: 9;
@@ -54,7 +62,7 @@ canvas{
     position: absolute;
     height: 30%;
     width: 100%;
-    background-color: #dbd1d1;
+    background-color: #000000;
     top: 30%;
     font-size: 100px;
     white-space: nowrap;
@@ -70,7 +78,7 @@ canvas{
 }
 
 #loop>h1>span {
-    -webkit-text-stroke: 1.2px #000;
+    -webkit-text-stroke: 1.2px #ffffff;
     color: transparent;
 }
 
@@ -88,7 +96,7 @@ canvas{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #dbd1d1;
+    background-color: #000000;
     height: 3rem;
     width: 100%;
     z-index: 10;
@@ -125,7 +133,7 @@ canvas{
 
 .navbar ul li:hover {
     cursor: pointer;
-    color: rgb(90, 90, 103);
+    color: rgb(255, 255, 255);
     transition: 0.5s;
     font-size: 1rem;
 }
@@ -138,7 +146,7 @@ canvas{
     font-size: 1.2rem;
     font-weight: 500;
     font-family: 'Clash Display', sans-serif;
-    color: #4b4646;
+    color: #ffffff;
     top: 50%;
     position: absolute;
     left: 3.5%;
@@ -150,35 +158,35 @@ canvas{
     top: 51%;
     left: 63%;
     position: absolute;
-    color: #524c4c;
+    color: #ffffff;
 }
 
 #page>span {
     font-size: 1.2rem;
     font-weight: 500;
     font-family: 'Clash Display', sans-serif;
-    color: #4b4646;
+    color: #ffffff;
     top: 62%;
     position: absolute;
     left: 3.5%;
 }
 
-#page1>#right-text{
+#page1>#right-text {
     position: absolute;
     top: 30%;
     left: 10%;
 }
-#page1>#right-text>h3{
+#page1>#right-text>h3 {
     font-weight: 400;
-    color: #7c7c7c;
+    color: #988f8f;
     font-family: 'Clash Display', sans-serif;
 }
-#page1>#right-text>h1{
+#page1>#right-text>h1 {
     font-size: 40px;
     font-family: 'Bespoke Serif', serif;
-    color: #4b4646;
+    color: #dbd1d1;
 }
-#page1>#left-text{
+#page1>#left-text {
     position: absolute;
     top: 50%;
     right: 10%;
@@ -187,10 +195,10 @@ canvas{
 #page1>#left-text>h1{
     font-size: 40px;
     font-family: 'Bespoke Serif', serif;
-    color: #4b4646;
+    color: #ffffff;
 }
 #page1>#left-text>h3{
-    color: #7c7c7c;
+    color: #988f8f;
     font-weight: 400;
     font-family: 'Clash Display', sans-serif;
 }
@@ -202,13 +210,13 @@ canvas{
 }
 #page2>#text1>h3{
     font-weight: 400;
-    color: #7c7c7c;
+    color: #bab4b4;
     font-family: 'Clash Display', sans-serif;
 }
 #page2>#text1>h1{
     font-size: 40px;
     font-family: 'Bespoke Serif', serif;
-    color: #4b4646;
+    color: #ffffff;
 }
 
 #page2>#text2{
@@ -220,13 +228,13 @@ canvas{
 #page2>#text2>p{
     font-size: 1.1rem;
     font-family: 'Clash Display', sans-serif;
-    color: #676161;
+    color: #756d6d;
     font-weight: 400;
 }
 
 #page3>#text3>h1 {
     font-size: 40vw;
-    color: #4b4646;
+    color: #756d6d;
     text-transform: uppercase;
     font-family: head;
     white-space: nowrap;
@@ -235,5 +243,7 @@ canvas{
 
 }
 
-
-
+#logo1 {
+    -webkit-text-stroke: 1.2px #908787;
+    color: transparent;
+}

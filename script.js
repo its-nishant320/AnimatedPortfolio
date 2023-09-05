@@ -48,27 +48,27 @@ function locomotive() {
   
   function files(index) {
     var data = `
-       ./male0001.png
-       ./male0002.png
-       ./male0003.png
-       ./male0004.png
-       ./male0005.png
-       ./male0006.png
-       ./male0007.png
-       ./male0008.png
-       ./male0009.png
-       ./male0010.png
-       ./male0011.png
-       ./male0012.png
-       ./male0013.png
-       ./male0014.png
-       ./male0015.png
-       ./male0016.png
-       ./male0017.png
-       ./male0018.png
-       ./male0019.png
-       ./male0020.png
-       ./male0021.png
+      ./0001.png
+      ./0002.png
+      ./0003.png
+      ./0004.png
+      ./0005.png
+      ./0006.png
+      ./0007.png
+      ./0008.png
+      ./0009.png
+      ./0010.png
+      ./0011.png
+      ./0015.png
+      ./0016.png
+      ./0017.png
+      ./0018.png
+      ./0019.png
+      ./0020.png
+      ./0021.png
+      ./0022.png
+      ./0023.png
+      ./male0021.png
        ./male0022.png
        ./male0023.png
        ./male0024.png
@@ -475,5 +475,14 @@ gsap.from("#page3 #text3 h1",{
   duration:8,
   repeat:-1,
   delay:4,
-  fontWeight:100
+  fontWeight:100,
+  ease:"power1"
+});
+
+gsap.from("#page1 #right-text #h1",{
+  x:-20,
+  durtion:2,
+  opacity:0,
+  ease:"power2",
+  delay:3
 });
