@@ -386,6 +386,8 @@ function locomotive() {
     scaleImage(images[imageSeq.frame], context);
   }
   
+
+  
   function scaleImage(img, ctx) {
     var canvas = ctx.canvas;
     var hRatio = canvas.width / img.width;
